@@ -1,0 +1,50 @@
+{
+    "name":  "synth-forge",
+    "logo":  "⚗️",
+    "exe":  "SynthForge.exe",
+    "desc":  "Free, open-source local image generation studio for Windows — batch prompts, seeds, img2img. 100 MB portable, offline, MIT, no queue.",
+    "topics":  [
+                   "image-generation",
+                   "stable-diffusion",
+                   "txt2img",
+                   "local-ai",
+                   "batch-generation",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "img2img",
+                   "seeds",
+                   "prompt-styles",
+                   "gpu",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Batch prompt runs** — a CSV of prompts and seeds generates overnight into an organized gallery",
+                     "✅ **Style presets** — photographic, illustration and poster looks applied as prompt modifiers, editable",
+                     "✅ **Image-to-image** — strength dial and denoise control take an existing image in a new direction",
+                     "✅ **Seed control** — lock a seed to iterate one detail without losing the composition",
+                     "✅ **VRAM-safe presets** — resolution and step budgets that fit common cards with an honest error when they do not",
+                     "✅ **Gallery with metadata** — every output stores its prompt, seed and settings in a sidecar",
+                     "✅ **100 MB self-contained exe** — runtime bundled, models download separately, offline after that, MIT"
+                 ],
+    "compare":  [
+                    "| Feature | **synth-forge** | Automatic1111 | ComfyUI | Fooocus |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free, OSS | Free, OSS | Free, OSS |",
+                    "| Open source | **Yes** | Yes | Yes | Yes |",
+                    "| Install weight | **100 MB exe** | Multi-GB Python env | Multi-GB Python env | Multi-GB download",
+                    "| Batch from CSV | **Yes** | Scripted | Workflow | No |",
+                    "| Node graphs to learn | **No** | No | Yes | No |",
+                    "| Portable, no install | **Yes** | No | Partial | Partial"
+                ],
+    "faqQ":  "lightweight local image generator for Windows without a Python setup?",
+    "faqA":  "The big open-source generators work, but they arrive as multi-gigabyte Python stacks that break on updates. synth-forge keeps the interface to a prompt box, style presets and a batch queue while models download separately. It is a 100 MB portable exe, MIT, offline, and the gallery keeps every setting in a sidecar.",
+    "s1":  "Dark forge (#121417, orange #F97316): prompt bar at top with style chips, generated grid of four images below, seed and step controls in the right rail.",
+    "s2":  "Batch CSV view: 60 prompt rows loaded with per-row thumbnails as they complete, progress at 22 of 60, overnight mode toggle lit.",
+    "s3":  "Image-to-image panel: source image preview, strength dial at 0.55, side-by-side result, metadata sidecar chip listing seed and sampler."
+}
